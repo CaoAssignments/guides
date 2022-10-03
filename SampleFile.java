@@ -1,7 +1,7 @@
 /**
- * Name:
- * Email:
- * PID:
+ * Name: Paul Cao
+ * Email: yic242@eng.ucsd.edu
+ * PID: A12345678
  * Sources used: Put "None" if you did not have any external help
  * Some example of sources used would be Tutors, Textbook, and Lecture Slides
  * 
