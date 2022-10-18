@@ -10,7 +10,7 @@ These are the CSE 11 Style Guidelines, based on Google Style Guidelines:
    - Your email
    - Your PID
    - References to sources used (e.g. write-up, JDK documentation)
-2. **Class Header:** Describe in 1-2 sentences the purpose and capabilities of your Class. Talk about important instance variables if there are any. See Guideline #10 for how you will be graded on formatting.
+2. **Class Header:** Describe in 1-2 sentences the purpose and capabilities of your `class`, `interface` or `enum`. Talk about important instance variables if there are any. See Guideline #10 for how you will be graded on formatting. 
 3. **Method Header:** Describe method functionality briefly and mention special cases if there are any. Include arguments and return value descriptions. You also need method headers for all main methods in your code, describing the behavior and parameters `args`. See Guideline #10 for how you will be graded on formatting.
 4. **Inline Comments:** If there is a length of code that is left unexplained, take the time to type a **non-redundant** line summarizing this length of code (e.g. `// initialize an int` is redundant, vs. `// set initial length to 10 inches`). It will let others who look at your code understand what's going on without having to spend time understanding your logic first. But don't be too descriptive, as too many comments reduces readability.
     - See examples of this in the book and in the code samples below.
