@@ -1,4 +1,4 @@
-/**
+/*
  * Name: Paul Cao
  * Email: yic242@eng.ucsd.edu
  * PID: A12345678
