@@ -21,7 +21,7 @@
 
         <!-- 5. Indentation -->
         <module name="CommentsIndentationCheck"/>
-        <module name="AdaptiveIndentationCheck"/>
+        <module name="IndentationCheck"/>
 
         <!-- 7. Magic Numbers -->
         <module name="MagicNumber">
