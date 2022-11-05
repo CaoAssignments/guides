@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+        "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+        "https://checkstyle.org/dtds/configuration_1_3.dtd">
+
+<module name="Checker">
+    <module name="TreeWalker">
+        <property name="tabWidth" value="4"/>
+
+        <!-- 2. Class / Interface / Enum Headers -->
+        <module name="MissingJavadocType">
+            <property name="skipAnnotations" value=""/>
+            <property name="scope" value="private"/>
+        </module>
+
+        <!-- 3. Method Header -->
+        <module name="MissingJavadocMethod">
+            <property name="allowedAnnotations" value=""/>
+            <property name="scope" value="private"/>
+        </module>
+
+        <!-- 5. Indentation -->
+        <module name="CommentsIndentationCheck"/>
+        <module name="AdaptiveIndentationCheck"/>
+
+        <!-- 7. Magic Numbers -->
+        <module name="MagicNumber">
+            <property name="ignoreNumbers" value="-1, 0, 1"/>
+            <property name="constantWaiverParentToken"
+                      value="ARRAY_INIT, ASSIGN, DIV, ELIST, EXPR, LITERAL_NEW,
+                             METHOD_CALL, MINUS, PLUS, STAR, TYPECAST,
+                             UNARY_MINUS, UNARY_PLUS, SL, SR, BNOT"/>
+        </module>
+        <module name="MagicStringCheck"/>
+
+        <!-- 10. Javadoc -->
+        <module name="InvalidJavadocPosition"/>
+        <module name="JavadocMissingLeadingAsterisk"/>
+        <module name="JavadocStyle">
+            <property name="checkFirstSentence" value="false"/>
+            <property name="checkEmptyJavadoc" value="true"/>
+        </module>
+        <module name="JavadocType">
+            <property name="tokens" value="INTERFACE_DEF,CLASS_DEF,ENUM_DEF"/>
+            <property name="allowMissingParamTags" value="true"/>
+        </module>
+        <module name="JavadocMethod">
+            <property name="allowedAnnotations" value=""/>
+        </module>
+        <module name="NonEmptyAtclauseDescription">
+            <property name="javadocTokens" value="PARAM_LITERAL,RETURN_LITERAL"/>
+        </module>
+    </module>
+
+    <!-- 9. Short lines. -->
+    <module name="LineLength"/>
+</module>
