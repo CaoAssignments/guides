@@ -31,7 +31,6 @@
                              METHOD_CALL, MINUS, PLUS, STAR, TYPECAST,
                              UNARY_MINUS, UNARY_PLUS, SL, SR, BNOT"/>
         </module>
-        <module name="MagicStringCheck"/>
 
         <!-- 10. Javadoc -->
         <module name="InvalidJavadocPosition"/>
