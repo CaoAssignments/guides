@@ -2,7 +2,7 @@
 
 Having good coding style makes your code readable and easier to understand for everyone reading it. Treat your programs as if another programmer will continue to maintain the code after you. This includes your future self!
 
-These are the CSE 11 Style Guidelines, based on Google Style Guidelines:
+These are the CSE 12 Style Guidelines, based on Google Style Guidelines:
 
 1. **File header:** At the top of your file, use block comment (`/* */`) to include
    - Your name (in the format of `Name: [your name]`)
