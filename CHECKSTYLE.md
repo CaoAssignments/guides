@@ -11,8 +11,7 @@
 > 4. Short methods
 
 ## Running `checkstyle` in Terminal
-1. Download Checkstyle 10.7.0 (`checkstyle-10.7.0-all.jar`) from checkstyle: [https://github.com/checkstyle/checkstyle/releases](https://github.com/checkstyle/checkstyle/releases/tag/checkstyle-10.7.0).
-![img.png](img/terminal-step1.png)
+1. Download Checkstyle 10.7.0 (`checkstyle-10.7.0-all.jar`) from [Github](https://github.com/checkstyle/checkstyle/releases/tag/checkstyle-10.7.0).
 2. Download [`checkstyle.xml`](https://github.com/CaoAssignments/style-guide/raw/main/checkstyle.xml) from this repo.
 3. Copy both files to the **same** folder where you store your code. 
 ![img_1.png](img/terminal-step3.png)
