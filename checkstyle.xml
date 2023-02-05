@@ -4,6 +4,9 @@
         "https://checkstyle.org/dtds/configuration_1_3.dtd">
 
 <module name="Checker">
+    <property name="localeCountry" value="US"/> <!-- force English on non-English OS to avoid gibberish output-->
+    <property name="localeLanguage" value="en"/>
+
     <module name="TreeWalker">
         <property name="tabWidth" value="4"/>
 
