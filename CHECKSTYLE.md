@@ -11,11 +11,11 @@
 > 4. Short methods
 
 ## Running `checkstyle` in Terminal
-1. Download the latest release JAR (`checkstyle-10.x-all.jar`) from checkstyle: https://github.com/checkstyle/checkstyle/releases.
+1. Download Checkstyle 10.7.0 (`checkstyle-10.7.0-all.jar`) from checkstyle: [https://github.com/checkstyle/checkstyle/releases](https://github.com/checkstyle/checkstyle/releases/tag/checkstyle-10.7.0).
 ![img.png](img/terminal-step1.png)
 2. Download [`checkstyle.xml`](https://github.com/CaoAssignments/style-guide/raw/main/checkstyle.xml) from this repo.
 3. Copy both files to the **same** folder where you store your code. 
 ![img_1.png](img/terminal-step3.png)
-4. In the terminal, run `java -jar checkstyle-10-x-all.jar -c checkstyle.xml [your java file]` (replace `checkstyle-10-x-all.jar` with the JAR file you downloaded, and `[your java file]` with your source file name). You'll see a list of errors that indicate style issues in your code. 
+4. In the terminal, run `java -jar checkstyle-10.7.0-all.jar -c checkstyle.xml [your java file]`, for example, `java -jar checkstyle-10.7.0-all.jar -c checkstyle.xml MyLinkedList.java`. You'll see a list of errors that indicate style issues in your code. 
 
     ![img_3.png](img/terminal-step4.png)
