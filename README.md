@@ -1,5 +1,10 @@
 # Style Guidelines
 
+> **Note**
+>
+> Some parts of our style grader can be run locally now. See [CHECKSTYLE.md](CHECKSTYLE.md) for instructions.
+
+
 Having good coding style makes your code readable and easier to understand for everyone reading it. Treat your programs as if another programmer will continue to maintain the code after you. This includes your future self!
 
 These are the CSE 12 Style Guidelines, based on Google Style Guidelines:
