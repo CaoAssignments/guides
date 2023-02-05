@@ -45,13 +45,16 @@ https://github.com/CaoAssignments/style-guide/blob/main/SampleFile.java
 ```java
 /**	
  * Return the score of the letter in scrabble.
+ * Note that annotations like @Override should be placed
+ * after the Javadoc block.
  *  
  * @param letter the letter in question
  * @param defaultValue default value when letter doesn't 
  *                     have a grade
  * @return the scrabble value of the letter
  */
-private int letterScore(char letter, int defaultValue) {
+@Override
+public int letterScore(char letter, int defaultValue) {
     char lowerCaseLetter = Character.toLowerCase(letter);
     switch (lowerCaseLetter) {
         case CASE_A: 
