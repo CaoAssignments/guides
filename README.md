@@ -9,12 +9,12 @@ Having good coding style makes your code readable and easier to understand for e
 
 These are the CSE 12 Style Guidelines, based on Google Style Guidelines:
 
-1. **File header:** At the top of your file, use block comment (`/* */`) to include
-   - Your name (in the format of `Name: [your name]`)
-   - Your email (in the format of `Email: xxxx@ucsd.edu`)
-   - Your PID (in the format of `PID: Axxxxxxxx`)
-   - References to sources used (e.g. write-up, JDK documentation)
-   - a 1-4 sentence high-level description about the file that tells the reader the purpose of your file
+1. **File header:** At the top of your file, use block comment (`/* */`) to include the following information in the order of
+   1. Your name (in the format of `Name: [your name]`)
+   2. Your email (in the format of `Email: xxxx@ucsd.edu`)
+   3. Your PID (in the format of `PID: Axxxxxxxx`)
+   4. References to sources used, e.g. write-up, JDK documentation (in the format of `Sources Used: write-up, JDK, ...`)
+   5. a 1-4 sentence high-level description about the file that tells the reader the purpose of your file
 2. **Class Header:** Describe in 1-2 sentences the purpose and capabilities of your `class`, `interface` or `enum`. Talk about important instance variables if there are any. See Guideline #10 for how you will be graded on formatting. 
 3. **Method Header:** Describe method functionality briefly and mention special cases if there are any. Include arguments and return value descriptions. You also need method headers for all `main` methods in your code, describing the behavior and parameters `args`. See Guideline #10 for how you will be graded on formatting.
 4. **Inline Comments:** If there is a length of code that is left unexplained, take the time to type a **non-redundant** line summarizing this length of code (e.g. `// initialize an int` is redundant, vs. `// set initial length to 10 inches`). It will let others who look at your code understand what's going on without having to spend time understanding your logic first. But don't be too descriptive, as too many comments reduces readability.
