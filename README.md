@@ -37,7 +37,7 @@ These are the CSE 12 Style Guidelines, based on Google Style Guidelines:
 10. **Add Javadoc comments**: use `/** javadoc comment */` to explain for methods, classes, interfaces or enums in your code. 
     - The comment block should start with **2** `*`, with the following lines start with **1** `*`.
     - For method headers, use `@param` for each parameter to describe their purposes, and `@return` only if it is not `void` to explain the meaning for its return value.
-    - Annotations like @Override should be placed after (not before) the Javadoc block.
+    - Annotations like `@Override` should be placed after (not before) the Javadoc block.
 
 <u>**Example Java File:**</u>
 https://github.com/CaoAssignments/style-guide/blob/main/SampleFile.java
