@@ -1,13 +1,13 @@
 /*
- * Name: Paul Cao
- * Email: yic242@eng.ucsd.edu
- * PID: A12345678
- * Sources used: Put "None" if you did not have any external help
- * Some example of sources used would be Tutors, Textbook, and Lecture Slides
- * 
- * This file is used to demonstrate what a properly styled file looks like.
- * It comes with class and method headers samples that you can use as a
- * template for styling your assignment files. (Remember 1-4 sentences)
+   Name: Paul Cao
+   Email: yic242@eng.ucsd.edu
+   PID: A12345678
+   Sources used: Put "None" if you did not have any external help
+   Some example of sources used would be Tutors, Textbook, and Lecture Slides
+  
+   This file is used to demonstrate what a properly styled file looks like.
+   It comes with class and method headers samples that you can use as a
+   template for styling your assignment files. (Remember 1-4 sentences)
  */
 
 // If there are imports, they should go here.
@@ -68,15 +68,15 @@ public class SampleFile {
         int total = 0;
 
         /*
-         * Generally speaking, a good way of knowing when an inline comment
-         * should be added is when you have a large chunk of code that is
-         * tasked with performing some operation. Here, I left a comment since
-         * it may not be clear why I'm adding this.firstNum to total.
-         * 
-         * In some other cases, you may have a while loop that is tasked with
-         * finding the minimum value in an array which will be used for some
-         * other tasks. In that case, it would be appropriate to leave a
-         * comment saying "Preprocessing to find the minimum value for __ task"
+           Generally speaking, a good way of knowing when an inline comment
+           should be added is when you have a large chunk of code that is
+           tasked with performing some operation. Here, I left a comment since
+           it may not be clear why I'm adding this.firstNum to total.
+           
+           In some other cases, you may have a while loop that is tasked with
+           finding the minimum value in an array which will be used for some
+           other tasks. In that case, it would be appropriate to leave a
+           comment saying "Preprocessing to find the minimum value for __ task"
          */
 
         // Implement multiplication by adding firstNum secondNum times
@@ -111,15 +111,15 @@ public class SampleFile {
 
         // Breaking up a long conditional
         /*
-         * The important thing to point out here is that there is more than one
-         * way to break up these long lines. You should be consistent with the way
-         * the breaking of the lines are aligned. Here, each additional line in
-         * the condition (or similar block) is indented with one tab.
-         * 
-         * As seen in the style guidelines, this also applies to other long lines
-         * such as long method calls or arithmetic operations. Keep the additional
-         * lines aligned with the same standard, whether it be aligned with a tab
-         * or be aligned by a space after the equals sign.
+           The important thing to point out here is that there is more than one
+           way to break up these long lines. You should be consistent with the way
+           the breaking of the lines are aligned. Here, each additional line in
+           the condition (or similar block) is indented with one tab.
+           
+           As seen in the style guidelines, this also applies to other long lines
+           such as long method calls or arithmetic operations. Keep the additional
+           lines aligned with the same standard, whether it be aligned with a tab
+           or be aligned by a space after the equals sign.
          */
         if (firstParameter > thirdParameter
                 && fourthParameter < secondParameter.charAt(0)) {
