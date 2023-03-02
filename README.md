@@ -160,7 +160,7 @@ if ((condition1 && condition2) || (condition3 && condition4)
 Example 5: array initialization
 ```java
 int[] arr = new arr[]{1, 2, 3, 4, 5, 6,
-    7, 8}; // single or double indentation
+    7, 8}; // single indentation
 ```
 If you’re curious, more coding style guides can be found on the Google website.
 Google Style Guidelines - https://google.github.io/styleguide/javaguide.html
