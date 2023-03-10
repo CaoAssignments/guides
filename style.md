@@ -41,7 +41,7 @@ These are the CSE 12 Style Guidelines, based on Google Style Guidelines:
 
 ## Example File
 
-- [`SampleFile.java`](resources/resourcesSampleFile.java)
+- [`SampleFile.java`](resources/SampleFile.java)
 
 ## Example Method Code Style
 ```java
