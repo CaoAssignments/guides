@@ -1,5 +1,5 @@
 # `checkstyle` for Style Guide
-`checkstyle` is a tool to automatically check style issues in your code. Here we provide some `checkstyle` rules in [checkstyle.xml](checkstyle.xml) to help you check for any style issues in your code. 
+`checkstyle` is a tool to automatically check style issues in your code. Here we provide some `checkstyle` rules in [checkstyle.xml](resources/checkstyle.xml) to help you check for any style issues in your code. 
 
 > **Warning**
 > 
