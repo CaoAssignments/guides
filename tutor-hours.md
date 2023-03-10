@@ -1,7 +1,7 @@
 1. The website is [Autograder](https://autograder.ucsd.edu). Sign in with your UCSD account and you will see the clcass. *(Contact us if you have problems with registering)*
 
 2. The calendar shows tutors' schedules. If the class is in-person, we help tickets in the [CSE building basement](https://cse.ucsd.edu/about/floormaps). **Make sure you state your location correctly.** 
-   CSE 11 uses CSE B220 as our main room, we prefer you stay around to save our time. It is OK to use other rooms as well if they are not holding any classes.
+   Each course uses a specific lab as the main room, we prefer you stay around to save our time. It is OK to use other rooms as well if they are not holding any classes.
 
    In the ticket, select your **room number** (B220, B230, ...) and **station number** (last two digits on the desktop sticker in the lab). 
    If you are sitting outside labs, you can use study-area number instead. It is also fine to describe yourself (e.g. the color of your clothes) for us to find you easier. 
