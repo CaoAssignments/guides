@@ -8,5 +8,6 @@
 - [Style Guide](style.md)
 - [Checkstyle Setup](style-checkstyle.md)
 
-## Piazza
+## Help
 - [Efficient Help Guide](efficient-help.md)
+- [Tutor Hours Tutorial](tutor-hours.md)
