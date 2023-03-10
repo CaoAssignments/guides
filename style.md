@@ -2,7 +2,7 @@
 
 > **Note**
 >
-> Some parts of our style grader can be run locally now. See [CHECKSTYLE.md](CHECKSTYLE.md) for instructions.
+> Some parts of our style grader can be run locally now. See [style-checkstyle.md](style-checkstyle.md) for instructions.
 
 
 Having good coding style makes your code readable and easier to understand for everyone reading it. Treat your programs as if another programmer will continue to maintain the code after you. This includes your future self!
@@ -39,10 +39,11 @@ These are the CSE 12 Style Guidelines, based on Google Style Guidelines:
     - For method headers, use `@param` for each parameter to describe their purposes, and `@return` only if it is not `void` to explain the meaning for its return value.
     - Annotations like `@Override` should be placed after (not before) the Javadoc block.
 
-<u>**Example Java File:**</u>
-https://github.com/CaoAssignments/style-guide/blob/main/SampleFile.java
+## Example File
 
-## Example Method Code Style:
+- [`SampleFile.java`](resources/resourcesSampleFile.java)
+
+## Example Method Code Style
 ```java
 /**	
  * Return the score of the letter in scrabble.
@@ -68,7 +69,7 @@ public int letterScore(char letter, int defaultValue) {
     }
 }
 ```
-## Example Inline Comment:
+## Example Inline Comment
 ```java
 private int countCapitalLetters(String word) {
     // counter to keep track of number of letters <- REDUNDANT COMMENT
@@ -82,7 +83,7 @@ private int countCapitalLetters(String word) {
    return count;
 }
 ```
-## Example Magic Number Refactor:
+## Example Magic Number Refactor
 ```java
 /**
  * In this example, 7 is used as the max password size. To avoid having
@@ -114,20 +115,22 @@ public class Foo {
 }
 ```
 
-## Example Line Wrapping Style:
-Example 1: calling a method
+*Use [`String.format`](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html#format(java.lang.String,java.lang.Object...)) to avoid concatenation as much as possible.*
+
+## Example Line Wrapping Style
+### Calling a method
 ```java
 someMethod(longExpression1, longExpression2, longExpression3,
         longExpression4, longExpression5);
 ```
 
-Example 2: math expression
+### Math expression
 ```java
 longName1 = longName2 * (longName3 + longName4 - longName5)
         + CONSTANT * longname6;
 ```
 
-Example 3: method header
+### Method header
 ```java
 int someMethod(int anArg, Object anotherArg, String yetAnotherArg,
         Object andStillAnother) {
@@ -135,7 +138,7 @@ int someMethod(int anArg, Object anotherArg, String yetAnotherArg,
 }
 ```
 
-Example 4: method header with a lot of arguments
+### Method header with a lot of arguments
 ```java
 private static synchronized horkingLongMethodName(int anArg,
         Object anotherArg, String yetAnotherArg,
@@ -143,7 +146,7 @@ private static synchronized horkingLongMethodName(int anArg,
     // ...
 }
 ```
-Example 5: conditional statements
+### Conditional statements
 ```java
 if ((condition1 && condition2)
         || (condition3 && condition4)
@@ -157,7 +160,7 @@ if ((condition1 && condition2) || (condition3 && condition4)
     doSomethingAboutIt();
 }
 ```
-Example 5: array initialization
+### Array initialization
 ```java
 int[] arr = new arr[]{1, 2, 3, 4, 5, 6,
     7, 8}; // single indentation
