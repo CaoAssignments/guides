@@ -1,6 +1,6 @@
 # JUnit Setup
 
-Open the [github link](https://github.com/Darleenie/junitDemo) and download the files into a folder named `junitDemo`.
+Open the [JUnit Demo](https://github.com/Darleenie/junitDemo) and download the files into a folder named `junitDemo`.
 The test will pass because there is nothing in it. You should complete the TODO sections.
 
 ## General IDE (Terminal)
