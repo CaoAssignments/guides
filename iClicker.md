@@ -1,4 +1,4 @@
-UCSD is migrating to a new iClicker software this quarter, so registering your iClicker may be slightly different than past quarters. **Note: For winter and spring quarters, will start grading participation week 3. For fall quarters, we will start grading participation week 2**
+UCSD has migrated to iClicker Cloud from iClicker classic in Winter 2024, so registering your iClicker may be slightly different than past quarters. **Note: For winter and spring quarters, will start grading participation week 3. For fall quarters, we will start grading participation week 2**
 
 1) Go to https://www.iclicker.com/. If you already have an account, go to step 4. If not, continue to step 2.
 
