@@ -11,3 +11,6 @@
 ## Help
 - [Efficient Help Guide](efficient-help.md)
 - [Tutor Hours Tutorial](tutor-hours.md)
+
+## Participation (iClicker)
+- [iClicker Registration Guide](iClicker.md)
