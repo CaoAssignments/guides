@@ -1,4 +1,4 @@
-UCSD has migrated to iClicker Cloud from iClicker classic in Winter 2024, so registering your iClicker may be slightly different than past quarters. **Note: For winter and spring quarters, will start grading participation week 3. For fall quarters, we will start grading participation week 2**
+UCSD has migrated to iClicker Cloud from iClicker classic in Winter 2024, so registering your iClicker may be slightly different than past quarters. **Note: For winter and spring quarters, will start grading participation week 3. For fall quarters, we will start grading participation week 2.**
 
 1) Go to https://www.iclicker.com/. If you already have an account, go to step 4. If not, continue to step 2.
 
@@ -11,3 +11,5 @@ UCSD has migrated to iClicker Cloud from iClicker classic in Winter 2024, so reg
 5) Click the "+" sign in the top right to add a class.
 
 6) Select University of California San Diego and search for CSE 12. Select CSE12 taught by Paul Cao. Click "Add This Course" and you should see CSE12 in your Courses page. At this point, your iClicker remote should be registered and linked to you for when we port participation grades. 
+
+![image](https://github.com/CaoAssignments/guides/assets/47510212/a3fd51ac-c612-43c6-8bc1-b033a678bd92)
