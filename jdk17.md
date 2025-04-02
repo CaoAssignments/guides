@@ -37,11 +37,15 @@ _(For Windows, skip to the section below)_
 
         /usr/libexec/java_home -V
 
-    This will list out all installed versions of Java. Find the version 17.x.x.x and copy the code to set the JAVA_HOME environment variable:
+    This will list out all installed versions of Java. Find the version code 17.x.x.x.
 
-        export JAVA_HOME=`/usr/libexec/java_home -v 17.x.x.x
+    Run `nano ~/.zshrc`. This will open or create a ZSH config file (if it didn't already exist). Inside, using the version code 17.x.x.x, add the following line to the file:
 
-    Rerun `java -version` to verify that the version is now Java 17.x.x.x.
+        export JAVA_HOME=`/usr/libexec/java_home -v 17.x.x.x`
+
+    Exit the file with `^X` and hit `Enter` to save.
+
+    In a **new terminal window**, run `java -version` to verify that the version is now Java 17.x.x.x.
 
 ### For Windows
 

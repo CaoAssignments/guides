@@ -16,8 +16,8 @@ The JUnit tests are located in the `DemoArrayImplTester.java` file. You may noti
 
    - Mac/Unix Users:
 
-     - Compile: `javac -cp libs/junit-4.13.2.jar:libs/hamcrest-core-1.3.jar:. DemoArrayImplTester.java`
-     - Execute: `java -cp libs/junit-4.13.2.jar:libs/hamcrest-core-1.3.jar:. org.junit.runner.JUnitCore DemoArrayImplTester`
+     - Compile: `javac -cp libs/junit-4.12.jar:libs/hamcrest-core-1.3.jar:. DemoArrayImplTester.java`
+     - Execute: `java -cp libs/junit-4.12.jar:libs/hamcrest-core-1.3.jar:. org.junit.runner.JUnitCore DemoArrayImplTester`
 
    - Windows Users:
 
@@ -26,7 +26,7 @@ The JUnit tests are located in the `DemoArrayImplTester.java` file. You may noti
 
    - Command explanation:
      - `javac`: compiles the folder
-     - `-cp libs/junit-4.13.2.jar:libs/hamcrest-core-1.3.jar:.`: Specifies the JUnit4 dependencies (inside `libs`)
+     - `-cp libs/junit-4.12.jar:libs/hamcrest-core-1.3.jar:.`: Specifies the JUnit4 dependencies (inside `libs`)
      - `DemoArrayImplTester.java`: the tester file we want to compile and run
 
 The output should look something like this:
@@ -50,6 +50,8 @@ The output should look something like this:
    This beaker will show up if you have the tester file `DemoArrayImplTester.java` open.
 
    <img src="https://i.imgur.com/PZiXvL9.png" height=400>
+
+   **NOTE**: As of updating this guide (3/31/2025), the _Language Support for Java(TM) by Red Hat_ extension has an issue with the latest version. To fix this, go to the extension's page and under the title, locate the `Uninstall` button. Click the arrow button on the side and select `Install previous version`, and choose version `1.41.0`.
 
 4. Please Enable Java Test and select **JUnit** (NOT JUnit Jupiter).
 
