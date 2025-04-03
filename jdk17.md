@@ -14,7 +14,7 @@ _(For Windows, skip to the section below)_
     java -version
     ```
 
-    The output of the above command should give: `java version “X.X.X.X”`, where X.X.X.X specifies the version number. If your Java version is not 17.x.x.x, then you need to get the updated version. If an error gets produced saying there is “No Java runtime present”, then you have to perform a fresh installation.
+    The output of the above command should give: `java version “X.X.X.X”`, where X.X.X.X specifies the version number. If your Java version is not 17 or 17.x.x.x, then you need to get the updated version. If an error gets produced saying there is “No Java runtime present”, then you have to perform a fresh installation.
 
 2.  Download Java.
 
@@ -31,7 +31,7 @@ _(For Windows, skip to the section below)_
 
         java -version
 
-    It should now give you a version number that is **17.x.x.x**.
+    It should now give you a version number that is **17** or **17.x.x.x**.
 
     If it still shows a different version, then run the following command:
 
@@ -39,7 +39,7 @@ _(For Windows, skip to the section below)_
 
     This will list out all installed versions of Java. Find the version code 17.x.x.x.
 
-    Run `nano ~/.zshrc`. This will open or create a ZSH config file (if it didn't already exist). Inside, using the version code 17.x.x.x, add the following line to the file:
+    Run `nano ~/.zshrc`. This will open or create a ZSH config file (if it didn't already exist). Inside, using the version code 17.x.x.x, add the following line to the file (if there is no .x.x.x, just use 17):
 
         export JAVA_HOME=`/usr/libexec/java_home -v 17.x.x.x`
 
@@ -60,7 +60,7 @@ _(For Windows, skip to the section below)_
 2.  Download Java: [https://download.oracle.com/java/17/archive/jdk-17_windows-x64_bin.exe](https://download.oracle.com/java/17/archive/jdk-17_windows-x64_bin.exe)
 3.  When you’ve finished the download, click it and follow the installer.
 
-4.  Re-run `java -version` to verify that you have the correct version. If you do not get version 17.x.x.x, follow the instructions under step 5 to set the JDK Path to 17.x.x.x.
+4.  Re-run `java -version` to verify that you have the correct version. If you do not get version 17 or 17.x.x.x, follow the instructions under step 5 to set the JDK Path to 17.x.x.x.
 5.  Type `javac` in the command prompt and see the output. If you get `javac is not recognized as an internal or external command`, this means the JDK Path is not set. To set it:
 
     1.  Find the location of your Java folder (by default Java is installed in `C:\Program Files\Java`).  Go to the Java folder, and then go into the bin folder, which is inside the Java folder (by default `bin` can be found at `C:\Program Files\Java\jdk-17.x.x.x`). In the bin folder, you should see the files `javac.exe` and `java.exe`.  Highlight the path and copy it as shown below.
@@ -70,7 +70,7 @@ _(For Windows, skip to the section below)_
     2.  In explorer, right-click on “This PC”, and select “Properties”.
     3.  Scroll down to find “Advanced System Settings”.
     4.  Open “Environment Variables”, select the variable named ‘Path’ and press ‘Edit’ under the ‘User Variables for xxx’ section to edit the Path environment variable.
-    5.  Click New and paste the path (e.g., `C:\Program Files\Java\jdk-11.0.5\bin`) to your Java bin folder. Click OK.
+    5.  Click New and paste the path (e.g., `C:\Program Files\Java\jdk-17\bin`) to your Java bin folder. Click OK.
 
         ![ezgif-1-bffa6d014d](https://user-images.githubusercontent.com/12138874/224301146-5766b532-74ad-4dfa-ab76-827cd7bafc5d.gif)
 
@@ -92,27 +92,9 @@ _(For Windows, skip to the section below)_
 4.  Create a new file by clicking “File” - “New Text File”, and then type the following HelloWorld program in the text editor.
 
     ```
-    /**
-     * Name: Qingyang Hu
-     * Email: q3hu@ucsd.edu
-     * PID: A16164360
-     * This is an example Java file to demonstrate how to print
-     * a message to standard output.
-     */
-
-    /**
-     * This is the class for our HelloWorld program. You may modify the message by
-     * changing the MESSAGE variable.
-     */
     public class HelloWorld {
-        private final static String MESSAGE = "Hello World!";
-        /**
-         * This is the main method of the program, and it'll print a Hello World
-         * message to standard output.
-         * @param args not used in this program
-         */
         public static void main(String[] args) {
-            System.out.println(MESSAGE);
+            System.out.println("Hello World!");
         }
     }
     ```

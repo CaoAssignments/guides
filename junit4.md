@@ -39,28 +39,31 @@ The output should look something like this:
 
 ## VSCode Extension
 
-1. Open the folder `junitDemo` in VSCode. You might notice that there are some red errors.
+1. Open the folder `junitDemo` in VSCode. Make sure that you are opening this folder in the editor! You may encounter issues if you open a parent folder.
+
+   You might notice that there are some red errors:
 
    <img src="https://i.imgur.com/H07YX1d.png" width=300>
+
+   Don't worry about these for now.
 
 2. Open the tester file `DemoArrayImplTester.java`.
 
 3. On the left side of VSCode, there are ICONS, please click on the icon that looks like a beaker.
-   If there is no beaker, please go to "Manage" - "Extensions", and install "Extension Pack for Java".
+   If there is no beaker, please go to "Manage" - "Extensions", and install "Extension Pack for Java". If you already have "Extension Pack for Java" installed, make sure all of the extensions are up-to-date.
+
    This beaker will show up if you have the tester file `DemoArrayImplTester.java` open.
 
-   <img src="https://i.imgur.com/PZiXvL9.png" height=400>
-
-   **NOTE**: As of updating this guide (3/31/2025), the _Language Support for Java(TM) by Red Hat_ extension has an issue with the latest version. To fix this, go to the extension's page and under the title, locate the `Uninstall` button. Click the arrow button on the side and select `Install previous version`, and choose version `1.41.0`.
+   <img src="https://i.imgur.com/YUvR3Ri.png" height=400>
 
 4. Please Enable Java Test and select **JUnit** (NOT JUnit Jupiter).
 
    <img src="https://i.imgur.com/pRW5Qfn.png" height=300>
 
-   <img src="https://i.imgur.com/Tj6VSXW.png" height=150>
+   <img src="https://i.imgur.com/7Q4TFxv.png" height=150>
 
-5. Then you will see the unit Tests if they pass or fail. All of them will pass but this image below is an idea of what should look like.
+5. Then you will see the unit Tests if they pass or fail. All of them will pass but this image below is an idea of what it could look like.
 
-   <img src="https://i.imgur.com/Lo3vMvm.png" height=150>
+   <img src="https://i.imgur.com/TlqHEtF.png" height=150>
 
    To re-run the tests, press the `Run Tests` button (double right arrow) at the top of the `TESTING` tab.
