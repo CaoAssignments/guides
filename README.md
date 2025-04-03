@@ -7,6 +7,8 @@
 
 You can follow along video guides for both Java and JUnit setup:
 
+**NOTE**: The guides in the video are slightly different from the pages linked above. When in doubt, refer to the Github guides.
+
 - MacOS: [https://www.youtube.com/watch?v=jlpxN1IlL_E](https://www.youtube.com/watch?v=jlpxN1IlL_E)
 - Windows: [https://www.youtube.com/watch?v=xpaSfRm2s-4](https://www.youtube.com/watch?v=xpaSfRm2s-4)
 
