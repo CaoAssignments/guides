@@ -148,60 +148,40 @@ public class Hello {
 }
 ```
 
-10. 
+You should see this on your screen:  
+<img width="2748" height="1608" alt="image" src="https://github.com/user-attachments/assets/8b3f5232-364b-43f8-97be-29d378283b69" />
 
-11. Type the contents of the screenshot below into your newly created `HelloWorld.java` file:
-    <img width="774" height="330" alt="image" src="https://github.com/user-attachments/assets/cf40ace2-646e-4f0b-81fe-bff8a3880830" />
+10. Notice that a **white circle** is next to the file name tab. This means **your progress is not saved**. Hit `CTRL + S` on Windows or `CMD + S` on Mac to save your file (and the white circle should go away)
+<img width="706" height="245" alt="image" src="https://github.com/user-attachments/assets/748e0e61-76cd-4abf-a9e3-c954a9e0e697" />
 
-12. Then, you need to write two lines of code below `// Put your code below.`
+### Now we dive into the actual coding! Let's have this program print "Hello" first.
+1. Copy-paste this line inside the main function:
 
-    a. **My name is \<your name\>** starting from a new line. You'll need to use the `System.out.println` method to accomplish this. Refer to the source code line that prints out `"Hello World!"` but replace the text between the double quotation marks with `My name is <your name>`
+```java
+System.out.println("Hello");
+```
 
-    b. Then on another new line, tell the class what your favorite hobby is: **My favorite hobby is \<what your favorite hobby is\>**
+You should have the following on your screen:  
+<img width="1553" height="624" alt="image" src="https://github.com/user-attachments/assets/54913ffe-374f-45e0-9ed6-227981ee0e3f" />
 
-13. Save this file by navigating to the top left-hand corner again or by pressing **Ctrl + S** (Windows) or **Cmd + S** (Mac) at the same time. 
+2. Open the terminal by going to the `Terminal` menu in the top toolbar, then select `New Terminal`  
+<img width="2864" height="1692" alt="image" src="https://github.com/user-attachments/assets/446d7748-2f29-433e-9bcb-44dafc45548b" />
 
-    > **Tip:** To make your coding experience smoother, you can enable Auto Save in VS Code by going to File → Auto Save. This will automatically save your files as you type, so you don't have to worry about manually saving every time you make changes.  
-    <img width="572" height="1186" alt="image" src="https://github.com/user-attachments/assets/0f8a1ba4-3924-4eea-b877-3ae106faf055" />
+This will open a terminal for your current folder (i.e., for `PA0`). You should see the following on your screen:  
+<img width="2854" height="1633" alt="image" src="https://github.com/user-attachments/assets/a2a79d1d-3028-4c55-b48f-e2daa15ebab2" />
 
-    You will know your new code has been saved when the white dot next to the filename at the top of the tab disappears. In the below screenshot, recent changes to `HelloWorld.java` are unsaved.  
-    <img width="498" height="152" alt="image" src="https://github.com/user-attachments/assets/02da869e-fb09-460b-a22b-29ae92b83018" />
+3. To run our program using the terminal, we need to do a **two step process**:
+- Compile `Hello.java` by typing `javac HelloWorld.java` in the terminal and hitting Enter. (This will create some new files with the `.class` extension, don't worry about them.
+- Execute `Hello.java` by typing `java Hello` in the terminal (after you compiled in the previous step) and hitting Enter.
 
-14. After that, go back to the terminal and make sure you are in the same directory where you saved your `HelloWorld.java` file. Before you run every Java code, you need to compile it first using the `javac` command.
+You should see "hello" now!
 
-    **Important Note:** If you make changes to a `.java` file, you will need to compile your code again before you can run the file with the updated changes.
 
-    **Linux and macOS:**
-    ```bash
-    $ javac HelloWorld.java
-    ```
 
-    **Windows:**
-    ```cmd
-    > javac HelloWorld.java
-    ```
 
-    Notice that a brand new `.class` file appeared in your directory after compiling!  
-    <img width="434" height="234" alt="image" src="https://github.com/user-attachments/assets/a25f3236-bc91-402e-b04a-632e401e9f70" />
 
-    Then you can run the program using the `java` command.
-
-    **Linux and macOS:**
-    ```bash
-    $ java HelloWorld
-    ```
-
-    **Windows:**
-    ```cmd
-    > java HelloWorld
-    ```
-
-    You should see three lines of output in the terminal.
-
-    ```
-
+---
 # Extra: Switching between existing Java versions
-
 If you are on a Mac and **have more than one version of Java installed**, the following steps will show you how to set the default version of Java to your preferred version (Java 11 is used as an example below).
 
 *If you are on Windows, ask on Piazza or come to office hours. We will
