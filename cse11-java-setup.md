@@ -10,12 +10,12 @@ Depending on your operating system, select one of the following:
 1. Choose the `x64 Installer`
     <img width="1375" height="187" alt="image" src="https://github.com/user-attachments/assets/9c7dbaae-2768-48a6-9805-6e8df5a2ef4f" />
 
-2. It will prompt you to create an Oracle account. Create one, log in, and download the executable.
-
-3. If you receive a password validation error even though your passwords match, try creating the account in an Incognito/Private/InPrivate window.
+2. It will prompt you to create an Oracle account. Create one, and log in. If you receive a password validation error even though your passwords match, try creating the account in an Incognito/Private/InPrivate window.
     <img width="918" height="202" alt="image" src="https://github.com/user-attachments/assets/e3e17fb2-0307-4937-9ecf-0fb2053e5f1f" />
 
-4. Run the executable that you just downloaded and follow through the setup wizard  
+3. Download the executable (you can place the executable called `jdk-11.0.30_windows-x64_bin.exe` anywhere you want; I usually leave it in the default `Downloads` folder).
+
+4. Run the executable that you just downloaded (by **double-clicking it**) and follow through the setup wizard  
     <img width="497" height="377" alt="image" src="https://github.com/user-attachments/assets/0f500e81-6cb8-4a4e-8080-a5b545494fc7" />
 
 5. Install it in the default directory.
@@ -23,37 +23,30 @@ Depending on your operating system, select one of the following:
 6. You should now have this. You can click close:  
     <img width="498" height="377" alt="image" src="https://github.com/user-attachments/assets/16af440d-e657-4f7a-9a6e-fef4cebd45ba" />
 
-#### Installing Java on MacOS
-1. If you have a Mac with **Apple Silicon**, choose the `Arm 64 DMG Installer`
+That's it!
 
+## Installing Java on MacOS
+1. If you have a Mac with **Apple Silicon**, choose the `Arm 64 DMG Installer`  
     <img width="2048" height="110" alt="image" src="https://github.com/user-attachments/assets/92f540a2-0612-4fc2-941e-7c974615b1e2" />
 
 2. If you have a Mac with an **Intel chip**, choose `x64 DMG Installer`
     <img width="2048" height="110" alt="image" src="https://github.com/user-attachments/assets/114f32c4-c8b5-457f-b8dc-2230f275e941" />
 
-
-3. It will prompt you to create an Oracle account. Create one, log in, and download the executable.
-
-4. If you receive a password validation error even though your passwords match, try creating the account in an Incognito/Private/InPrivate window.  
+3. It will prompt you to create an Oracle account. Create one and log in. If you receive a password validation error even though your passwords match, try creating the account in an Incognito/Private/InPrivate window.  
     <img width="918" height="202" alt="image" src="https://github.com/user-attachments/assets/548496ea-9027-44e5-aad0-844ec68b1b5f" />
 
+4. Download the executable.
 
-5. Open the `.pkg` installer and follow through the installation instructions
-
+6. Open the `.pkg` installer and follow through the installation instructions  
     <img width="1228" height="878" alt="image" src="https://github.com/user-attachments/assets/7ef7d384-7dac-4bbc-a525-3a0d0f2cba18" />
 
-
-6. Click "Continue" and you should see this:
-
+7. Click "Continue" and you should see this:  
     <img width="1222" height="874" alt="image" src="https://github.com/user-attachments/assets/06fdbbd1-e74c-4b8e-a23c-c0fb63e92186" />
 
-
-7. Provide your login credentials and click "Install". After installation, you should see the following:
-
+8. Provide your login credentials and click "Install". After installation, you should see the following:  
     <img width="1224" height="882" alt="image" src="https://github.com/user-attachments/assets/ed34c617-c121-48f9-a947-72b51ba8897d" />
 
-
-8. Click "close" and you're done!
+9. Click "close" and you're done!
 
 **Note:** It's perfectly fine to see version `11.0.xx` (where `xx` is higher than `18`) in the above screenshots.
 
@@ -62,29 +55,55 @@ Open your terminal.
 - For MacOS, press Command + Spacebar, type "Terminal", and hit Enter.
 - For Windows, press the Windows key, type "Terminal", and hit Enter.
 
-Then, run the following command:  
-
-**Linux and macOS:**
-```bash
-$ java -version
-```
-
-**Windows:**
-```cmd
-> java -version
-```
+Then, run the following command: `java -version`
 
 You should see the Java version you're using. 
 
-**Note:** If you run into issues when running these commands after you've 
-installed Java, you may either need to:
-
-1. Restart your terminal and run the commands again
-
+### If you run into issues when running these commands after you've installed Java, you may either need to:
+1. Restart your terminal and run the commands again  
 2. Make changes to your system Path variable (though this is typically not necessary): [https://www.java.com/en/download/help/path.html](https://www.java.com/en/download/help/path.html)
 
-Now that we have Java installed, let's try to compile and run a piece
-of code from the command line.
+### If you have multiple Java versions installed and want to use Java 11:
+If you are on a Mac, the following steps will show you how to set the default version of Java to your preferred version (Java 11 is used as an example below).
+
+*If you are on Windows, ask on Piazza or come to office hours. We will
+provide information on this if there's demand.*
+
+1. Run the following command:
+    ```bash
+    $ /usr/libexec/java_home -V
+    ```
+    
+    You should see output that looks like this:
+
+    ```
+    Matching Java Virtual Machines (3):
+
+    12.0.2, x86_64: "Java SE 12.0.2"
+    /Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home
+
+    11.0.2, x86_64: "Java SE 11.0.2"
+    /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home
+
+    1.8.0_131, x86_64: "Java SE 8"
+    /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
+
+    /Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home
+    ```
+
+    Please ensure that you have a Java installation (any recent version will work).
+
+2. Pick your preferred Java version and set it to default by running the following command (Java 11 example):
+
+    ```bash
+    $ export JAVA_HOME=`/usr/libexec/java_home -v 11`
+    ```
+
+    You can also copy the exact version like this:
+
+    ```bash
+    $ export JAVA_HOME=`/usr/libexec/java_home -v 11.0.2`
+    ```
 
 # Installing Visual Studio Code
 We will be installing Visual Studio Code (VS Code) as our IDE to modify our Java programs.
@@ -199,52 +218,3 @@ You should have the following now:
 <img width="1233" height="591" alt="image" src="https://github.com/user-attachments/assets/a4c2de1e-9e62-4be4-b971-38c2e624e880" />
 
 That's it! You have successfully used a String variable as input to output your message with the desired word "World!".
-
----
-# Extra: Switching between existing Java versions
-If you are on a Mac and **have more than one version of Java installed**, the following steps will show you how to set the default version of Java to your preferred version (Java 11 is used as an example below).
-
-*If you are on Windows, ask on Piazza or come to office hours. We will
-provide information on this if there's demand.*
-
-1. Run the following command:
-
-    ```bash
-    $ /usr/libexec/java_home -V
-    ```
-
-    You should see output that looks like this:
-
-    ```
-    Matching Java Virtual Machines (3):
-
-    12.0.2, x86_64: "Java SE 12.0.2"
-    /Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home
-
-    11.0.2, x86_64: "Java SE 11.0.2"
-    /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home
-
-    1.8.0_131, x86_64: "Java SE 8"
-    /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
-
-    /Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home
-    ```
-
-    Please ensure that you have a Java installation (any recent version will work).
-
-2. Pick your preferred Java version and set it to default by running the following command (Java 11 example):
-
-    ```bash
-    $ export JAVA_HOME=`/usr/libexec/java_home -v 11`
-    ```
-
-    You can also copy the exact version like this:
-
-    ```bash
-    $ export JAVA_HOME=`/usr/libexec/java_home -v 11.0.2`
-    ```
-
-    Hello World!
-    My name is Kevin
-    My favorite hobby is coding
-    ```
