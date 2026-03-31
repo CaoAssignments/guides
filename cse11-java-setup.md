@@ -115,10 +115,12 @@ You should be prompted with a welcome page that looks similar to the one below:
     a. Create a dedicated folder for `CSE 11` and place it anywhere on your computer (e.g., in the Desktop).  
 <img width="459" height="572" alt="image" src="https://github.com/user-attachments/assets/6705c4a0-04ad-4a6f-97d4-43d46d51c836" />
 
-    b. Then, inside the `CSE 11` folder, create a dedicated folder for your CSE 11 Programming Assignments (e.g., `CSE 11 PAs`) to stay organized.  
+
+   b. Then, inside the `CSE 11` folder, create a dedicated folder for your CSE 11 Programming Assignments (e.g., `CSE 11 PAs`) to stay organized.  
 <img width="1428" height="419" alt="image" src="https://github.com/user-attachments/assets/fb9f11f5-a36c-44d9-b71f-28ea6b9518c3" />
 
-    c. Then, inside `CSE 11 PAs`, create one last folder (I promise!) for this small program to live on (e.g., `PA0`).  
+
+   c. Then, inside `CSE 11 PAs`, create one last folder (I promise!) for this small program to live on (e.g., `PA0`).  
    <img width="1428" height="548" alt="image" src="https://github.com/user-attachments/assets/bbeba60e-86be-4a7b-bc5c-4407ecbb46d3" />
 
 5. Now, let's open our `PA0` folder inside VS Code so we can start programming!
@@ -132,50 +134,32 @@ You should be prompted with a welcome page that looks similar to the one below:
 Click on the "New File" icon to create the file for this small program.
 <img width="2880" height="1691" alt="image" src="https://github.com/user-attachments/assets/d45066e0-706b-4330-9707-6bec6b1e7b07" />
 
+8. Name this file `Hello.java` and hit Enter. **Note that the file name starts with an Uppercase** (this is important).  
+<img width="2748" height="1540" alt="image" src="https://github.com/user-attachments/assets/eb49becb-3bea-4a10-b60d-390108360ec9" />
+
+9. Copy-paste the code below (this is called **boilerplate code**, it's code we use in all our programs to make them run!):
+```java
+public class Hello {
+    public static void main(String[] args) {
 
 
+        
+    }
+}
+```
 
+10. 
 
-
-
-    
-
-4. We should be able to see our file explorer on the left-hand side.  
-    <img width="326" height="92" alt="image" src="https://github.com/user-attachments/assets/5003cbfb-ab31-4680-92e0-29c0010389d9" />
-
-5. Next, on the VS Code toolbar at the top, select Terminal → New Terminal.  
-   <img width="1491" height="723" alt="image" src="https://github.com/user-attachments/assets/d1d798da-c4d0-42ba-b4ab-ae039ac0214b" />
-
-6. You just opened up the terminal (command line) in VS Code.  
-    <img width="725" height="184" alt="image" src="https://github.com/user-attachments/assets/6109c352-ae4f-4d16-a346-6178a811f741" />
-
-7. Now let's create a Java file called `HelloWorld.java`. You can do this either from the terminal we just opened or from VS Code.  
-    a. **Terminal**
-    
-    Create the `HelloWorld.java` file using terminal commands:
-    - Mac/Linux: `touch HelloWorld.java`
-    - Windows: `type nul > HelloWorld.java`
-    <img width="1316" height="278" alt="image" src="https://github.com/user-attachments/assets/24f3930c-97d8-4c82-b517-52a2d167bdc0" />
-
-
-    b. **VS Code**  
-    Use the `add file` icon.  
-    <img width="536" height="234" alt="image" src="https://github.com/user-attachments/assets/d84ed7bc-61fb-4180-aae4-0edd7c22f3f6" />
-
-    Name the file.  
-    <img width="532" height="264" alt="image" src="https://github.com/user-attachments/assets/e243d9d6-3f1b-4359-b7d6-a92bc199dd8b" />
-
-
-9. Type the contents of the screenshot below into your newly created `HelloWorld.java` file:
+11. Type the contents of the screenshot below into your newly created `HelloWorld.java` file:
     <img width="774" height="330" alt="image" src="https://github.com/user-attachments/assets/cf40ace2-646e-4f0b-81fe-bff8a3880830" />
 
-10. Then, you need to write two lines of code below `// Put your code below.`
+12. Then, you need to write two lines of code below `// Put your code below.`
 
     a. **My name is \<your name\>** starting from a new line. You'll need to use the `System.out.println` method to accomplish this. Refer to the source code line that prints out `"Hello World!"` but replace the text between the double quotation marks with `My name is <your name>`
 
     b. Then on another new line, tell the class what your favorite hobby is: **My favorite hobby is \<what your favorite hobby is\>**
 
-11. Save this file by navigating to the top left-hand corner again or by pressing **Ctrl + S** (Windows) or **Cmd + S** (Mac) at the same time. 
+13. Save this file by navigating to the top left-hand corner again or by pressing **Ctrl + S** (Windows) or **Cmd + S** (Mac) at the same time. 
 
     > **Tip:** To make your coding experience smoother, you can enable Auto Save in VS Code by going to File → Auto Save. This will automatically save your files as you type, so you don't have to worry about manually saving every time you make changes.  
     <img width="572" height="1186" alt="image" src="https://github.com/user-attachments/assets/0f8a1ba4-3924-4eea-b877-3ae106faf055" />
@@ -183,7 +167,7 @@ Click on the "New File" icon to create the file for this small program.
     You will know your new code has been saved when the white dot next to the filename at the top of the tab disappears. In the below screenshot, recent changes to `HelloWorld.java` are unsaved.  
     <img width="498" height="152" alt="image" src="https://github.com/user-attachments/assets/02da869e-fb09-460b-a22b-29ae92b83018" />
 
-12. After that, go back to the terminal and make sure you are in the same directory where you saved your `HelloWorld.java` file. Before you run every Java code, you need to compile it first using the `javac` command.
+14. After that, go back to the terminal and make sure you are in the same directory where you saved your `HelloWorld.java` file. Before you run every Java code, you need to compile it first using the `javac` command.
 
     **Important Note:** If you make changes to a `.java` file, you will need to compile your code again before you can run the file with the updated changes.
 
