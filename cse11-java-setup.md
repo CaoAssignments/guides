@@ -198,7 +198,7 @@ This will open a terminal for your current folder (i.e., for `PA0`). You should 
 <img width="2854" height="1633" alt="image" src="https://github.com/user-attachments/assets/a2a79d1d-3028-4c55-b48f-e2daa15ebab2" />
 
 3. To run our program using the terminal, we need to do a **two step process**:
-- Compile `Hello.java` by typing `javac HelloWorld.java` in the terminal  
+- Compile `Hello.java` by typing `javac Hello.java` in the terminal  
 <img width="1266" height="327" alt="image" src="https://github.com/user-attachments/assets/5110664b-228b-476b-af8b-cc035e737953" />
 
  and hitting Enter. (This will create some new files with the `.class` extension, don't worry about them).
