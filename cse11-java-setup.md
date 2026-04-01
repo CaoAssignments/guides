@@ -150,13 +150,19 @@ c. Then, inside `CSE 11 PAs`, create one last folder (I promise!) for this small
 
 6. Then navigate to the location where you stored `PA0` (e.g., Desktop → CSE 11 → CSE 11 PAs → PA0), click on `PA0` and then `Select Folder`.
 <img width="1416" height="1066" alt="image" src="https://github.com/user-attachments/assets/b06d696c-9b47-46f3-a3d3-a6c39c7a146c" />
+<br>
+<br>
 
 7. You should see the VS Code explorer showing the `PA0` folder (currently empty).  
 Click on the "New File" icon to create the file for this small program.
 <img width="2880" height="1691" alt="image" src="https://github.com/user-attachments/assets/d45066e0-706b-4330-9707-6bec6b1e7b07" />
+<br>
+<br>
 
 8. Name this file `Hello.java` and hit Enter. **Note that the file name starts with an Uppercase** (this is important).  
 <img width="2748" height="1540" alt="image" src="https://github.com/user-attachments/assets/eb49becb-3bea-4a10-b60d-390108360ec9" />
+<br>
+<br>
 
 9. Copy-paste the code below (this is called **boilerplate code**, it's code we use in all our programs to make them run!):
 ```java
@@ -194,13 +200,18 @@ This will open a terminal for your current folder (i.e., for `PA0`). You should 
 3. To run our program using the terminal, we need to do a **two step process**:
 - Compile `Hello.java` by typing `javac HelloWorld.java` in the terminal  
 <img width="1266" height="327" alt="image" src="https://github.com/user-attachments/assets/5110664b-228b-476b-af8b-cc035e737953" />
- and hitting Enter. (This will create some new files with the `.class` extension, don't worry about them).  
+
+ and hitting Enter. (This will create some new files with the `.class` extension, don't worry about them).
+<br>
+
 <img width="2750" height="1541" alt="image" src="https://github.com/user-attachments/assets/f50ee341-c743-49c2-9b4b-2d2c9e4e9b4a" />
 
 - Execute `Hello.java` by typing `java Hello` in the terminal (after you compiled in the previous step)
 <img width="1234" height="434" alt="image" src="https://github.com/user-attachments/assets/fa85dcb0-3f33-4010-9f81-437f28e03d57" />
 
  and hitting Enter.  
+ <br>
+ 
  <img width="1278" height="623" alt="image" src="https://github.com/user-attachments/assets/fc4b3d83-456f-445d-aeff-30792672f19d" />
 
 You should see "hello" now! (As shown above).
@@ -213,7 +224,8 @@ String x = "World!";
 You should have the following now:  
 <img width="2705" height="1582" alt="image" src="https://github.com/user-attachments/assets/53d45167-4bd1-4be6-be67-313d2a14650f" />
 
-2. Then, modify the print line so it uses `x` to print "Hello World!" as follows (note that we added a space after "Hello" (i.e., "Hello "):
+2. Then, modify the print line so it uses `x` to print "Hello World!" as follows:  
+> Note that we added a space after "Hello" (i.e., "Hello "):
 <img width="1201" height="677" alt="image" src="https://github.com/user-attachments/assets/a3a55072-73fe-481b-bd1e-c33a1aa1e320" />
 
 3.  Run the program again using the terminal and our **two-step process** from above:
