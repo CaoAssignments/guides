@@ -125,32 +125,33 @@ We will be installing Visual Studio Code (VS Code) as our IDE to modify our Java
 You will create a new Java file named `Hello.java` in Visual Studio Code.
 
 1. **Open up Visual Studio Code**  
-    a. If you are using a personal computer, you can open `Visual Studio Code` like you would with a normal application.  
-    b. Alternatively, if you are using the **terminal (command line),** you can type in `code` and it should open up Visual Studio Code as well (pretty neat, right?).
+    > a. If you are using a personal computer, you can open `Visual Studio Code` like you would with a normal application.  
+    > b. Alternatively, if you are using the **terminal (command line),** you can type in `code` and it should open up Visual Studio Code as well (pretty neat, right?).
 
 You should be prompted with a welcome page that looks similar to the one below:  
     <img width="1021" height="769" alt="image" src="https://github.com/user-attachments/assets/858ca7f0-6d42-449b-a29a-7ebc9f4b5772" />
 
-2. Create your working folder!
-    a. Create a dedicated folder for `CSE 11` and place it anywhere on your computer (e.g., in the Desktop).  
+2. Create your working folder!  
+a. Create a dedicated folder for `CSE 11` and place it anywhere on your computer (e.g., in the Desktop).  
 <img width="459" height="572" alt="image" src="https://github.com/user-attachments/assets/6705c4a0-04ad-4a6f-97d4-43d46d51c836" />
+<br>
+<br>
 
-
-   b. Then, inside the `CSE 11` folder, create a dedicated folder for your CSE 11 Programming Assignments (e.g., `CSE 11 PAs`) to stay organized.  
+b. Then, inside the `CSE 11` folder, create a dedicated folder for your CSE 11 Programming Assignments (e.g., `CSE 11 PAs`) to stay organized.  
 <img width="1428" height="419" alt="image" src="https://github.com/user-attachments/assets/fb9f11f5-a36c-44d9-b71f-28ea6b9518c3" />
-
-
-   c. Then, inside `CSE 11 PAs`, create one last folder (I promise!) for this small program to live on (e.g., `PA0`).  
+<br>
+<br>
+c. Then, inside `CSE 11 PAs`, create one last folder (I promise!) for this small program to live on (e.g., `PA0`).  
    <img width="1428" height="548" alt="image" src="https://github.com/user-attachments/assets/bbeba60e-86be-4a7b-bc5c-4407ecbb46d3" />
 
-5. Now, let's open our `PA0` folder inside VS Code so we can start programming!
+5. Now, let's open our `PA0` folder inside VS Code so we can start programming!  
     Click on the Explorer tab and select "Open Folder" in VS Code.  
     <img width="444" height="423" alt="image" src="https://github.com/user-attachments/assets/34037ce7-7630-4440-a534-b8e39fc713fc" />
 
 6. Then navigate to the location where you stored `PA0` (e.g., Desktop → CSE 11 → CSE 11 PAs → PA0), click on `PA0` and then `Select Folder`.
 <img width="1416" height="1066" alt="image" src="https://github.com/user-attachments/assets/b06d696c-9b47-46f3-a3d3-a6c39c7a146c" />
 
-7. You should see the VS Code explorer showing the `PA0` folder (currently empty).
+7. You should see the VS Code explorer showing the `PA0` folder (currently empty).  
 Click on the "New File" icon to create the file for this small program.
 <img width="2880" height="1691" alt="image" src="https://github.com/user-attachments/assets/d45066e0-706b-4330-9707-6bec6b1e7b07" />
 
