@@ -50,24 +50,25 @@ That's it!
 
 **Note:** It's perfectly fine to see version `11.0.xx` (where `xx` is higher than `18`) in the above screenshots.
 
-# Verify Java Installation
-Open your terminal. 
+# Verify Java Installation (in two steps!)
+**ONE:** Open your terminal. 
 - For MacOS, press Command + Spacebar, type "Terminal", and hit Enter.
 - For Windows, press the Windows key, type "Terminal", and hit Enter.
 
-Then, run the following command: `java -version`
+**TWO:** Run the following command: `java -version`
 
-You should see the Java version you're using. 
+You should now see the Java version you're using! (Below is an example of how this looks. I personally have Java 17)  
+<img width="1338" height="733" alt="image" src="https://github.com/user-attachments/assets/34a3ef6c-767c-40a1-b2cf-0b4c82983b7b" />
 
 ### If you run into issues when running these commands after you've installed Java, you may either need to:
 1. Restart your terminal and run the commands again  
 2. Make changes to your system Path variable (though this is typically not necessary): [https://www.java.com/en/download/help/path.html](https://www.java.com/en/download/help/path.html)
 
 ### If you have multiple Java versions installed and want to use Java 11:
-If you are on a Mac, the following steps will show you how to set the default version of Java to your preferred version (Java 11 is used as an example below).
-
 *If you are on Windows, ask on Piazza or come to office hours. We will
 provide information on this if there's demand.*
+
+If you are on a Mac, the following steps will show you how to set the default version of Java to your preferred version (Java 11 is used as an example below).
 
 1. Run the following command:
     ```bash
@@ -104,7 +105,7 @@ provide information on this if there's demand.*
     ```bash
     $ export JAVA_HOME=`/usr/libexec/java_home -v 11.0.2`
     ```
-
+---
 # Installing Visual Studio Code
 We will be installing Visual Studio Code (VS Code) as our IDE to modify our Java programs.
 > Note: You can use any text editor (e.g., Vim, Notepad (Windows), TextEdit (macOS)) you want to edit the files in your programming assignments. You also have cloud-based options like **GitHub Codespaces**, which provides a complete development environment in your browser without requiring local installation. Do not use an Integrated Development Environment (IDE) that automatically generates source code, as 1) you need to learn how to write all source code yourself, and 2) the resulting source code often will fail to compile and/or run in Gradescope, resulting in a score of 0!
@@ -119,7 +120,7 @@ We will be installing Visual Studio Code (VS Code) as our IDE to modify our Java
     <img width="590" height="562" alt="image" src="https://github.com/user-attachments/assets/0c29b50d-ba53-46e5-89af-d91742ae0baa" />
 
 3. Follow the installation instructions depending on your OS.
-
+---
 # Writing a small Java program  
 You will create a new Java file named `Hello.java` in Visual Studio Code.
 
