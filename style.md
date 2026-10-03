@@ -12,7 +12,7 @@ These are the CSE 12 Style Guidelines, based on Google Style Guidelines:
 1. **File header:** At the top of your file, use block comment (`/* */`) to include the following information in the order of
    1. Your name (in the format of `Name: [your name]`)
    2. Your email (in the format of `Email: xxxx@ucsd.edu`)
-   3. Your PID (in the format of `PID: Axxxxxxxx`)
+   3. Your TSN (in the format of `TSN: 2xxxxxxxx`)
    4. References to sources used, e.g. write-up, JDK documentation (in the format of `Sources Used: write-up, JDK, ...`)
    5. a 1-4 sentence high-level description about the file that tells the reader the purpose of your file
 2. **Class Header:** Describe in 1-2 sentences the purpose and capabilities of your `class`, `interface` or `enum`. Talk about important instance variables if there are any. See Guideline #10 for how you will be graded on formatting.
